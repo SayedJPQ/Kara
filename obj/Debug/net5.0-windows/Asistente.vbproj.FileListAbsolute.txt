@@ -1,0 +1,41 @@
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.exe
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.deps.json
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.runtimeconfig.json
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.runtimeconfig.dev.json
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.dll
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\ref\Asistente.dll
+C:\Users\PC0\Desktop\Asistente\bin\Debug\net5.0-windows\Asistente.pdb
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.vbprojAssemblyReference.cache
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.Form1.resources
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.GenerateResource.cache
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.AssemblyInfoInputs.cache
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.AssemblyInfo.vb
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.CoreCompileInputs.cache
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.CopyComplete
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.dll
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\ref\Asistente.dll
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.pdb
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.genruntimeconfig.cache
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.Form2.resources
+C:\Users\PC0\Desktop\Asistente\obj\Debug\net5.0-windows\Asistente.Form3.resources
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.exe
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.deps.json
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.runtimeconfig.json
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.runtimeconfig.dev.json
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.dll
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\ref\Asistente.dll
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\bin\Debug\net5.0-windows\Asistente.pdb
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.vbprojAssemblyReference.cache
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.Form1.resources
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.Form2.resources
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.GenerateResource.cache
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.AssemblyInfoInputs.cache
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.AssemblyInfo.vb
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.CoreCompileInputs.cache
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.vbproj.CopyComplete
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.dll
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\ref\Asistente.dll
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.pdb
+C:\Users\PC0\Desktop\Proyectos VB.NET\Asistente\obj\Debug\net5.0-windows\Asistente.genruntimeconfig.cache

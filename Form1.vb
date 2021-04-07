@@ -63,7 +63,7 @@ Public Class Form1
             speech.Speak(Respuesta.Text, SpeechVoiceSpeakFlags.SVSFlagsAsync)
             'speech.WaitUntilDone(Timeout.Infinite)
         Else
-            speech.Voice = speech.GetVoices.Item(1)
+            'speech.Voice = speech.GetVoices.Item(1)
             'Traducir
             Select Case texto
 'Saludos y despedidas

@@ -69,6 +69,7 @@ Partial Class Form1
         '
         'TextBox1
         '
+        Me.TextBox1.CausesValidation = False
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox1.Location = New System.Drawing.Point(2, 33)
         Me.TextBox1.Name = "TextBox1"
@@ -77,6 +78,7 @@ Partial Class Form1
         '
         'Respuesta
         '
+        Me.Respuesta.AllowDrop = True
         Me.Respuesta.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Respuesta.Location = New System.Drawing.Point(214, 22)
         Me.Respuesta.Multiline = True

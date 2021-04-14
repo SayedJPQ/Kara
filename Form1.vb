@@ -5,55 +5,58 @@ Public Class Form1
     Dim volume As Integer = 100 ' Rango desde 0 hasta 100.
     'Dim procesos As Process()
     Private Sub CodigoElse(texto As String, Traduce As Boolean)
-        'Try
-        If Traduce = False Then
+
+        texto = texto.ToLower
+
+        Try
+            If Traduce = False Then
                 speech.Voice = speech.GetVoices.Item(0)
                 Select Case texto
 'Interaccion con el bot
-                    Case "Hola"
-                        Respuesta.Text = texto
-                    Case "Como estas?"
+                    Case "hola"
+                        Respuesta.Text = "Hola"
+                    Case "como estas?"
                         Respuesta.Text = "Bien y usted señor"
-                    Case "Me siento triste"
+                    Case "me siento triste"
                         Respuesta.Text = "Espero que te sientas mejor. Pondre algo de musica"
-                    Process.Start("explorer.exe", "https://www.youtube.com/playlist?list=LLsnM9cuc8SNfT9N3lrscWRw")
-                Case "Me siento feliz"
+                        Process.Start("explorer.exe", "https://www.youtube.com/playlist?list=LLsnM9cuc8SNfT9N3lrscWRw")
+                    Case "me siento feliz"
                         Respuesta.Text = "Me alegro por usted señor"
-                    Case "Quiero programar"
+                    Case "quiero programar"
                         Respuesta.Text = "En que lenguaje desea programar señor?"
 
 'Abrir programas
-                    Case "Python"
+                    Case "python"
                         Respuesta.Text = "Python abierto señor"
                         Process.Start("python.exe")
-                    Case "CMD"
+                    Case "cmd"
                         Respuesta.Text = "CMD abierto señor"
                         Process.Start("cmd.exe")
-                    Case "Inventario"
+                    Case "inventario"
                         Respuesta.Text = "Programa de inventario abierto señor"
                         Process.Start("C:\Users\PC0\Desktop\VisualProjects\Inventario\Inventario.exe")
 'Abrir webs
-                    Case "Youtube"
-                    System.Diagnostics.Process.Start("explorer.exe", "https://www.youtube.com")
-                    Respuesta.Text = "youtube abierto señor"
+                    Case "youtube"
+                        System.Diagnostics.Process.Start("explorer.exe", "https://www.youtube.com")
+                        Respuesta.Text = "youtube abierto señor"
                     Case "Quiero escuchar musica"
                         Respuesta.Text = "¿Que tipo de musica te gustaria escuchar?"
-                Case "Quiero escuchar rock"
-                    System.Diagnostics.Process.Start("explorer.exe", "https://www.youtube.com/results?searchquery=musica+rock")
-                Case "Facebook"
-                    System.Diagnostics.Process.Start("explorer.exe", "https://www.facebook.com")
-                    Respuesta.Text = "Facebook abierto señor"
+                    Case "Quiero escuchar rock"
+                        System.Diagnostics.Process.Start("explorer.exe", "https://www.youtube.com/results?searchquery=musica+rock")
+                    Case "facebook"
+                        System.Diagnostics.Process.Start("explorer.exe", "https://www.facebook.com")
+                        Respuesta.Text = "Facebook abierto señor"
 'Tutorial
-                Case "Que puedo traducir"
+                    Case "que puedo traducir"
                         Respuesta.Text = "Se presentara a continuacion la lista de palabras que puede traducir, por favor pongalas tal y como estan para evitar errores"
                         Process.Start("C:\Users\PC0\Desktop\Kara\Translate\Translate.exe")
 
 'Cerrar programa
-                    Case "Cerrar programa"
+                    Case "cerrar programa"
                         MsgBox("Hasta luego")
                         End
                     Case Else
-                        Respuesta.Text = "NO LE ENTENDI SEÑOR"
+                        Respuesta.Text = "No le entendi señor"
                 End Select
                 speech.Rate = 0
                 speech.Volume = 80
@@ -64,39 +67,39 @@ Public Class Form1
                 'Traducir
                 Select Case texto
 'Saludos y despedidas
-                    Case "Saludo"
+                    Case "saludo"
                         Traducido.Text = "Greeting"
-                    Case "Despedida"
+                    Case "despedida"
                         Traducido.Text = "Farewell"
-                    Case "Hola"
+                    Case "hola"
                         Traducido.Text = "Hello"
-                    Case "Como estas?"
+                    Case "como estas?"
                         Traducido.Text = "How are you"
-                    Case "Adios"
+                    Case "adios"
                         Traducido.Text = "Goodbye"
-                    Case "Te veo despues"
+                    Case "te veo despues"
                         Traducido.Text = "See you later"
-                    Case "Te veo pronto"
+                    Case "te veo pronto"
                         Traducido.Text = "See you soon"
 'Objetos
-                    Case "Libro"
+                    Case "libro"
                         Traducido.Text = "Book"
-                    Case "Lapicero"
+                    Case "lapicero"
                         Traducido.Text = "Pen"
-                    Case "Lapiz"
+                    Case "lapiz"
                         Traducido.Text = "Pencil"
                     Case Else
                         speech.Voice = speech.GetVoices.Item(0)
-                        Traducido.Text = "NO LE ENTENDI SEÑOR"
+                        Traducido.Text = "No le entendi señor"
                 End Select
                 speech.Rate = 0
                 speech.Volume = 80
                 speech.Speak(Traducido.Text, SpeechVoiceSpeakFlags.SVSFlagsAsync)
                 'speech.WaitUntilDone(Timeout.Infinite)
             End If
-        'Catch
-        'MsgBox("No se encontro el comando")
-        'End Try
+        Catch
+            MsgBox("No se encontro el comando")
+        End Try
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         CodigoElse(TextBox1.Text, False)

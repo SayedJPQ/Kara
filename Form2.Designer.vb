@@ -34,8 +34,8 @@ Partial Class Form2
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.Location = New System.Drawing.Point(222, 108)
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
+        Me.TextBox1.Location = New System.Drawing.Point(222, 44)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(331, 29)
         Me.TextBox1.TabIndex = 0
@@ -84,7 +84,8 @@ Partial Class Form2
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(222, 44)
+        Me.TextBox2.ForeColor = System.Drawing.SystemColors.Window
+        Me.TextBox2.Location = New System.Drawing.Point(222, 108)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(331, 29)
         Me.TextBox2.TabIndex = 5

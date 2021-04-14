@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Asistente</RootNamespace>
-    <StartupObject>Asistente.Form2</StartupObject>
+    <StartupObject>Asistente.Form1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationIcon>Android.ico</ApplicationIcon>

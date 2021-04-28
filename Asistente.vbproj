@@ -4,10 +4,16 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Asistente</RootNamespace>
-    <StartupObject>Asistente.Form1</StartupObject>
+    <StartupObject>Asistente.Form3</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationIcon>Android.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,8 +23,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Speech" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Interop.SpeechLib">
       <HintPath>bin\Debug\net5.0-windows\Interop.SpeechLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Speech">
+      <HintPath>bin\Debug\net5.0-windows\System.Speech.dll</HintPath>
     </Reference>
   </ItemGroup>
 

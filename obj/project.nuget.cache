@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Wk2K+OatBS6cM4km0iKibjclcUYmo8G4buUdVQcodvzPLx13cbe4XfpeuawJeuN65H9vKacw3giGmw957tFwtA==",
+  "dgSpecHash": "VNerdob1KebYkDi/wgbI3PpNK0B6R+pwMqRLFOzVVWAxMFC8svAiiFb28Vx71kjvWWztLw5eFkNI6Hs3YCTDaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\Asistente.vbproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\Asistente.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC0\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.1\\microsoft.netcore.platforms.5.0.1.nupkg.sha512",
+    "C:\\Users\\PC0\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC0\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC0\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC0\\.nuget\\packages\\system.speech\\5.0.0\\system.speech.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

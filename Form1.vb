@@ -24,7 +24,10 @@ Public Class Form1
                         Respuesta.Text = "Me alegro por usted señor"
                     Case "quiero programar"
                         Respuesta.Text = "En que lenguaje desea programar señor?"
-
+                    Case "comandos voz"
+                        Respuesta.Text = "Abriendo comandos de voz señor"
+                        Me.Hide()
+                        Form3.Show()
 'Abrir programas
                     Case "python"
                         Respuesta.Text = "Python abierto señor"
@@ -97,8 +100,8 @@ Public Class Form1
                 speech.Speak(Traducido.Text, SpeechVoiceSpeakFlags.SVSFlagsAsync)
                 'speech.WaitUntilDone(Timeout.Infinite)
             End If
-        Catch
-            MsgBox("No se encontro el comando")
+        Catch ex As Exception
+            MsgBox(ex.Message)
         End Try
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

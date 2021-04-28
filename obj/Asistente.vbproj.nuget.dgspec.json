@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\Asistente.vbproj": {}
+    "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\Asistente.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\Asistente.vbproj": {
+    "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\Asistente.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\Asistente.vbproj",
+        "projectUniqueName": "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\Asistente.vbproj",
         "projectName": "Asistente",
-        "projectPath": "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\Asistente.vbproj",
+        "projectPath": "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\Asistente.vbproj",
         "packagesPath": "C:\\Users\\PC0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC0\\Desktop\\Proyectos VB.NET\\Asistente\\obj\\",
+        "outputPath": "C:\\Users\\PC0\\Desktop\\Sayed\\Programacion\\Asistente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Speech": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

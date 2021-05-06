@@ -6,20 +6,20 @@ Public Class Form3
     Dim WithEvents Rec As New Recognition.SpeechRecognitionEngine
     Dim synth As New Synthesis.SpeechSynthesizer
     Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Try
-            Dim Gramatica As New Recognition.SrgsGrammar.SrgsDocument
-            Dim Regla As New Recognition.SrgsGrammar.SrgsRule("Hola")
-            Dim Lista As New Recognition.SrgsGrammar.SrgsOneOf("Hola", "Mucho gusto")
-            Dim Prueba As New System.Globalization.CultureInfo("es-SP")
-            Regla.Add(Lista)
+        'Try
+        Dim Prueba As New System.Globalization.CultureInfo("es-MX")
+        Dim Gramatica As New Recognition.SrgsGrammar.SrgsDocument
+        Dim Regla As New Recognition.SrgsGrammar.SrgsRule("Hola")
+        Dim Lista As New Recognition.SrgsGrammar.SrgsOneOf("Hola", "Como estas?")
+        Regla.Add(Lista)
             Gramatica.Rules.Add(Regla)
             Gramatica.Root = Regla
             Rec.SetInputToDefaultAudioDevice()
-            Rec.LoadGrammar(New Recognition.Grammar(Gramatica))
-            Rec.RecognizeAsync()
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        End Try
+        Rec.LoadGrammar(New Recognition.Grammar(Gramatica))
+        Rec.RecognizeAsync()
+        'Catch ex As Exception
+        'MsgBox(ex.Message)
+        'End Try
     End Sub
     Private Sub Reco_Recognized(ByVal sender As Object, ByVal e As System.Speech.Recognition.RecognitionEventArgs) Handles Rec.SpeechRecognized
         Select Case e.Result.Text
@@ -31,7 +31,7 @@ Public Class Form3
                 speech.Speak("No le entendi señor", SpeechVoiceSpeakFlags.SVSFlagsAsync)
         End Select
     End Sub
-    Private Sub Reco_RecognizeCompleted(ByVal sender As Object, ByVal e As System.Speech.Recognition.RecognizeCompletedEventArgs) Handles Rec.RecognizeCompleted
+    Private Sub Reco_RecognizeCompleted(ByVal sender As Object, ByVal e As System.Speech.Recognition.RecognizeCompletedEventArgs)
         Rec.RecognizeAsync()
     End Sub
 
@@ -42,5 +42,10 @@ Public Class Form3
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Rec.Dispose()
         synth.Dispose()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        Form1.Show()
     End Sub
 End Class
